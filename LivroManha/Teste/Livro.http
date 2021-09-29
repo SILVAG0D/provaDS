@@ -1,0 +1,12 @@
+###
+POST https://localhost:5001/api/livro/create
+Content-Type: application/json
+{
+    "Nome" : "Madame Bovary",
+    "Ano" : 2000,
+    "Genero" : "Romance",
+    "Editora" : "LP&M Pocket"
+}
+
+###
+GET https://localhost:5001/api/livro/list
